@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <h1>Hello World</h1>
+
+        <!-- ===== NAVIGATION ===== -->
+        <nav>
+            <a href="#" onclick="navigate('home')">Home</a>
+            <a href="#" onclick="navigate('about')">About</a>
+            <a href="#" onclick="navigate('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT AREA ===== -->
+    <main id="content">
+
+        <!-- ===== HOME SECTION ===== -->
+        <section id="home" class="page active">
+            <h2>Home</h2>
+            <p>
+                This is the Home page.
+            </p>
+
+            <!-- 🔧 FUTURE WORK AREA:
+                 - Add dashboard
+                 - Add images
+                 - Add API data
+            -->
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="page">
+            <h2>About</h2>
+            <p>
+                This is the About page.
+            </p>
+
+            <!-- 🔧 FUTURE WORK AREA:
+                 - Company description
+                 - Team profiles
+                 - Timeline
+            -->
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="page">
+            <h2>Contact</h2>
+            <p>
+                This is the Contact page.
+            </p>
+
+            <!-- 🔧 FUTURE WORK AREA:
+                 - Contact form
+                 - Email integration
+                 - CAPTCHA / security checks
+            -->
+        </section>
+
+    </main>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
